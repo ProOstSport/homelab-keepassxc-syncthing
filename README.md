@@ -37,8 +37,8 @@ Homeserver (KeePassXC im Docker-Container)
 ## Sicherheit
 
 - **Arbeitsregel:** speichern, Datenbank schließen, Sync abwarten, erst dann auf dem anderen Gerät öffnen. Keine gleichzeitige Bearbeitung auf beiden Geräten.
-- **Inaktivitätssperre:** 60 Sekunden getestet und ausgelöst. Der endgültige Wert von 240 Sekunden ist noch nicht bestätigt.
-- **Zwischenablage:** Leerung nach 10 Sekunden eingestellt. Die Wirkung auf die lokale Zwischenablage ist nicht getestet.
+- **Inaktivitätssperre:** 60 Sekunden getestet und ausgelöst. Der endgültige Wert wurde auf 240 Sekunden gesetzt.
+- **Zwischenablage:** Leerung nach 15 Sekunden eingestellt. Die Wirkung auf die lokale Zwischenablage ist nicht getestet.
 
 ## Bekannte Schwachstellen
 
